@@ -1,3 +1,3 @@
-# Basic Postgres Python
+# Postgres CodeRedCMS
 
-This repository provides a basic python environment connected with PostgreSQL database.
+This repository provides a CodeRedCMS project template connected with PostgreSQL database.
