@@ -5,7 +5,7 @@ services:
     environment:
       - TZ=Asia/Tokyo
     env_file:
-      - ./.env
+      - ./.env.dev
     ports:
       - "5432:5432"
     volumes:
@@ -15,12 +15,12 @@ services:
       context: .
       args:
         REQ_DIR: "requirements/"
-        REQ_TXT: "prod.txt"
-    image: kojamad28/postgres-coderedcms
+        REQ_TXT: "dev.txt"
+    image: kojamad28/postgres-coderedcms-dev
     container_name: wagtail
     command: /bin/bash
     volumes:
-     - .:/usr/src/app
+     - .:/usr/src
     tty: true
     stdin_open: true
     depends_on:
