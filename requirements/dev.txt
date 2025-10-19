@@ -1,3 +1,7 @@
+gunicorn
+django
+wagtail
+coderedcms
 -r common.txt
 black
 ruff

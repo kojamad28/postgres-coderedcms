@@ -1,6 +1,5 @@
 psycopg
 django-environ
-gunicorn
 django-structlog
 django-extensions
 django-model-utils
@@ -10,4 +9,3 @@ django-guardian
 django-payments[stripe]
 django-recaptcha
 django-two-factor-auth[phonenumbers]
-coderedcms
